@@ -6,14 +6,14 @@
     <link href="./index.css" type="text/css" rel="stylesheet" />
   </head>
   <body
-    class="grid grid-cols-[1fr_1fr_3fr] text-lg md:text-2xl xl:text-4xl gap-y-3 md:gap-y-10"
+    class="grid grid-cols-[1fr_2fr] text-lg md:text-2xl xl:text-4xl gap-y-3 md:gap-y-10"
   >
     <div
-      class="grid grid-cols-subgrid col-span-3 bg-red-700 drop-shadow-lg p-2 md:text-4xl xl:text-6xl"
+      class="grid grid-cols-subgrid col-span-2 bg-red-700 drop-shadow-lg p-2 md:text-4xl xl:text-6xl"
     >
       <img
         src="data-url:./portrait.jpg"
-        class="rounded-full p-1 w-28 md:w-36 xl:w-56 col-start-1 col-end-3 justify-self-center"
+        class="rounded-full p-1 w-28 md:w-36 xl:w-56 justify-self-center"
       />
       <div class="flex items-center">
         <h1 class="text-white text-center">
@@ -22,31 +22,31 @@
         </h1>
       </div>
     </div>
-    <div class="grid grid-cols-subgrid col-span-3 p-3 gap-y-3 md:gap-y-5 xl:gap-y-10">
-      <span></span>
-      <div>Mail:</div>
+    <div
+      class="grid grid-cols-subgrid col-span-2 p-3 gap-y-3 md:gap-y-5 xl:gap-y-10"
+    >
+      <div class="text-right px-4">Mail:</div>
       <a class="underline" href="mailto:bianca@schoenbichler.fit"
         >bianca@schoenbichler.fit</a
       >
-      <span></span>
-      <div>Tel:</div>
+      <div class="text-right px-4">Tel:</div>
       <a class="underline" href="tel:+436805578100">+43 680 5578 100</a>
-      <span></span>
-      <div>Praxis:</div>
+      <div class="text-right px-4">Praxis:</div>
       <div>
         Dienstag 9 - 14 Uhr<br />
         <a class="underline" href="https://maps.app.goo.gl/jjMh6NkbJKupNfFg7"
-          >Tagliebstraße 6, 1230 Wien</a
+          >Taglieberstraße 6, 1230 Wien</a
         >
       </div>
-      <h1 class="text-red-700 col-start-2">Laufbahn</h1>
-      <span></span>
-      <span></span>
-      <ul class="col-span-2 flex flex-col gap-3">
-        <li>FH St. Pölten</li>
-        <li>Sport Physio Wien</li>
+      <div class="text-right px-4">Hausbesuche:</div>
+      <div>auf Anfrage</div>
+      <h1 class="text-right px-4">Laufbahn:</h1>
+      <ul class="flex flex-col gap-3">
+        <li>FH St. Pölten - Physiotherapie</li>
+        <li>ESP Wien - Sport Physiotherapie</li>
         <li>Reha Klinik Wien Baumgarten</li>
-        <li>Praxis Wien</li>
+        <li>Sportmedic Wien</li>
+        <li>Spowi Wien</li>
       </ul>
     </div>
   </body>
